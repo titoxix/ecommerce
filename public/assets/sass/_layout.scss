@@ -1,0 +1,29 @@
+/*----------------------------------- 
+|               $LAYOUT   
+-----------------------------------*/
+
+
+.container{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows:50px 30px ;
+    grid-row-gap:16px;
+    height: 100vh;
+    grid-auto-rows: minmax(auto, auto);
+}
+
+.search-container{
+    display: grid; 
+    grid-column:1 / 4;
+    grid-template-columns:10% 5% 75% 10% ;
+    background-color: $colorSearch;
+}
+.breadcrumb-container{
+    grid-column:2 / 3;
+}
+
+.result-container{
+    grid-column:2 / 3;
+    grid-row: 3/5;
+    background-color: white
+}

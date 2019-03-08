@@ -1,0 +1,45 @@
+/*----------------------------------- 
+|               $SEARCH   
+-----------------------------------*/
+
+.search{
+    grid-column:2 / 4;
+}
+.search-box{
+    display: grid;
+    grid-template-columns:5% 95% ;
+    align-items:center
+}
+.search-box img{
+    vertical-align: top;
+}
+.search-box-input{
+    position: relative;
+    display: inline-block;
+    grid-column:2 / end;
+    padding-top: 6px;
+
+}
+.search-box-input input{
+    margin-left: 27px;
+    height: 35px;
+    border-radius: 5px;
+    font-size:16px;
+    box-sizing:border-box;
+    border:none;
+    width: 93%;
+    vertical-align: middle;
+}
+.search-box-input button{
+    background-image: url("../img/ic_Search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 35px;
+    border-radius: 0px 5px 5px 0px;
+    border:none;
+    vertical-align: middle;
+    position: relative;
+    right: 3px;
+    padding: 0;
+}

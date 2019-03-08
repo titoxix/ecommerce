@@ -1,0 +1,50 @@
+/*----------------------------------- 
+|               $RESULT SEARCH   
+-----------------------------------*/
+
+.result-card hr{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: .5px solid #eeeeee;
+}
+
+.result-card-picture{
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    //border: solid 1px red;
+    margin: 16px;
+}
+
+.short-description{
+    display: inline-block;
+    //border:solid 1px blue;
+}
+
+.short-description-price{
+    font-size: 24px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+
+.short-description span img {
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.short-description-title{
+    max-width: 80%;
+    //border:solid 1px blue;
+    font-size: 18px;
+}
+
+.result-card-origin{
+    display: inline-block;
+    //border:solid 1px green;
+    font-size: 12px;
+}
